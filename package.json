@@ -1,6 +1,27 @@
 {
   "dependencies": {
+    "module": "^1.2.5",
+    "node": "^19.0.0",
     "react-router-bootstrap": "^0.26.2",
     "use-reducer-logger": "^1.0.2"
-  }
+  },
+  "name": "ass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuananhadd/mern-ass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuananhadd/mern-ass/issues"
+  },
+  "homepage": "https://github.com/tuananhadd/mern-ass#readme",
+  "description": ""
 }
